@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>E-Learning Dashboard</title>
+
+    <link rel="stylesheet" href="../CSS/dashboard.css">
+
+</head>
+
+<body>
+
+    <!-- Sidebar -->
+
+    <div class="sidebar">
+
+        <div class="logo">
+            <h2>E-Learning</h2>
+        </div>
+
+        <ul class="nav-links">
+
+            <li class="active">
+                <a href="dashboard.html">🏠 Dashboard</a>
+            </li>
+
+            <li>
+                <a href="courses.html">📚 Courses</a>
+            </li>
+
+            <li>
+                <a href="mylearning.html">🎓 My Learning</a>
+            </li>
+
+            <li>
+                <a href="quizsubjects.html">📝 Quiz</a>
+            </li>
+
+            <li>
+                <a href="aiquiz.html">🤖 AI Quiz</a>
+            </li>
+
+            <li>
+                <a href="aidsa.html">🧠 AI DSA Practice</a>
+            </li>
+
+            <li>
+                <a href="studentprofile.html">👤 Student Profile</a>
+            </li>
+            <li>
+    <a href="results.html">📊 Results</a>
+</li>
+
+            <li>
+                <a href="#" onclick="logout()">🚪 Logout</a>
+            </li>
+
+        </ul>
+
+    </div>
+
+
+    <!-- Main Content -->
+
+    <div class="main-content">
+
+        <!-- Header -->
+
+        <div class="header">
+
+            <div>
+
+                <h1>Dashboard</h1>
+
+                <p>
+                    Welcome back! Continue your learning journey.
+                </p>
+
+            </div>
+
+            <div class="user-info">
+
+                <span id="userEmail">User</span>
+
+            </div>
+
+        </div>
+
+
+        <!-- Statistics Cards -->
+
+        <div class="stats-container">
+
+            <div class="card">
+
+                <h3>Total Courses</h3>
+
+                <p id="totalCourses">0</p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>My Courses</h3>
+
+                <p id="myCourses">0</p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>Total Students</h3>
+
+                <p id="totalStudents">0</p>
+
+            </div>
+
+        </div>
+
+
+        <!-- Welcome Section -->
+
+        <div class="welcome-section">
+
+            <h2>
+                Start Learning Today 🚀
+            </h2>
+
+            <p>
+                Explore new courses, improve your skills,
+                and track your learning progress.
+            </p>
+
+            <a href="courses.html">
+
+                <button class="explore-btn">
+                    Explore Courses
+                </button>
+
+            </a>
+
+        </div>
+
+
+        <!-- Available Courses -->
+
+        <div class="recent-section">
+
+            <h2>
+                Available Courses
+            </h2>
+
+            <div id="courseContainer"
+                 class="course-container">
+
+                <p>
+                    Loading courses...
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- Recent Quiz Results -->
+
+        <div class="recent-section">
+
+            <h2>
+                Recent Quiz Results
+            </h2>
+
+            <div id="quizResultContainer"
+                 class="course-container">
+
+                <p>
+                    Loading quiz results...
+                </p>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+    <script src="../JS/dashboard.js"></script>
+
+</body>
+
+</html>

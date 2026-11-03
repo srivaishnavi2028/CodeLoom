@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Result</title>
+    <link rel="stylesheet" href="../CSS/result.css">
+</head>
+
+<body>
+
+    <div class="result-container">
+
+        <h1>Quiz Completed!</h1>
+
+        <p class="result-message">
+            Great job! Here is your quiz result.
+        </p>
+
+        <div class="score">
+            <span id="score">0</span> / <span id="total">10</span>
+        </div>
+
+        <div class="percentage">
+            <span id="percentage">0</span>%
+        </div>
+
+        <div class="result-details">
+
+            <div class="result-box">
+                <h3>Correct</h3>
+                <p id="correct">0</p>
+            </div>
+
+            <div class="result-box">
+                <h3>Wrong</h3>
+                <p id="wrong">0</p>
+            </div>
+
+            <div class="result-box">
+                <h3>Unanswered</h3>
+                <p id="unanswered">0</p>
+            </div>
+
+        </div>
+
+        <div class="result-buttons">
+
+            <button id="tryAgain">
+                Try Again
+            </button>
+
+            <button id="dashboard">
+                Back to Dashboard
+            </button>
+
+        </div>
+
+    </div>
+
+    <script src="../JS/result.js"></script>
+
+</body>
+</html>

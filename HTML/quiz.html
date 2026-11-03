@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="../CSS/quiz.css">
+</head>
+
+<body>
+
+    <div class="quiz-container">
+
+        <div class="quiz-header">
+            <div class="quiz-title" id="quizTitle">
+                Quiz
+            </div>
+
+            <div class="timer">
+                Time: <span id="timer">60</span>s
+            </div>
+        </div>
+
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+
+        <div class="question-number" id="questionNumber">
+            Question 1 of 10
+        </div>
+
+        <div class="question" id="question">
+            Loading question...
+        </div>
+
+        <div class="options" id="options">
+        </div>
+
+        <div class="buttons">
+
+            <button class="previous-btn" id="previousBtn">
+                Previous
+            </button>
+
+            <button class="next-btn" id="nextBtn">
+                Next
+            </button>
+
+            <button class="submit-btn" id="submitBtn">
+                Submit Quiz
+            </button>
+
+        </div>
+
+    </div>
+
+    <script src="../JS/quiz.js"></script>
+
+</body>
+</html>

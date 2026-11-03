@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f7fb;
+    color: #222;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+h1 {
+    text-align: center;
+    color: #1f2937;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.setup {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+.setup label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+#generateBtn {
+    width: 100%;
+    padding: 13px;
+    border: none;
+    border-radius: 8px;
+    background: #1677d2;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#generateBtn:hover {
+    background: #125fac;
+}
+
+#loading {
+    display: none;
+    text-align: center;
+    margin: 25px 0;
+    font-weight: bold;
+    color: #1677d2;
+}
+
+.dsa-result {
+    margin-top: 30px;
+}
+
+.dsa-result h2 {
+    margin-top: 30px;
+    border-left: 5px solid #1677d2;
+    padding-left: 10px;
+}
+
+.problem-box,
+.explanation-box,
+.approach-box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    line-height: 1.7;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.07);
+}
+
+.examples-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.example-box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.07);
+}
+
+.example-box h3 {
+    margin-top: 0;
+    color: #1677d2;
+}
+
+.example-item {
+    margin-top: 15px;
+}
+
+.example-item strong {
+    display: block;
+    margin-bottom: 7px;
+}
+
+.example-item pre {
+    background: #f1f3f5;
+    padding: 12px;
+    border-radius: 6px;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+.example-item p {
+    line-height: 1.6;
+}
+
+.language-buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.language-btn {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    border-radius: 7px;
+    background: #e5e7eb;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.language-btn.active {
+    background: #1677d2;
+    color: white;
+}
+
+.solution-container {
+    background: #111827;
+    border-radius: 10px;
+    overflow-x: auto;
+}
+
+.solution-container pre {
+    margin: 0;
+    padding: 20px;
+    color: #f8fafc;
+    font-family: Consolas, monospace;
+    line-height: 1.6;
+    white-space: pre;
+}
+
+.error-box {
+    margin-top: 30px;
+    background: #fee2e2;
+    color: #991b1b;
+    padding: 20px;
+    border-radius: 10px;
+}
