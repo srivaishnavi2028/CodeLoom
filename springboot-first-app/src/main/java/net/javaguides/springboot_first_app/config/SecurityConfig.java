@@ -134,6 +134,12 @@ public class SecurityConfig {
             .authorizeHttpRequests(auth -> auth
 
                 .requestMatchers(
+                    "/",
+                    "/welcome",
+                    "/error"
+                ).permitAll()
+
+                .requestMatchers(
                     "/users/register",
                     "/users/login"
                 ).permitAll()
