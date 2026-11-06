@@ -60,7 +60,7 @@ generateBtn.addEventListener("click", async function () {
     try {
 
         const response = await fetch(
-            "http://localhost:8052/ai/dsa?topic=" +
+            "http://localhost:8081/ai/dsa?topic=" +
             encodeURIComponent(topic),
             {
                 method: "GET",
@@ -298,7 +298,7 @@ generateBtn.addEventListener("click", async function () {
                 <ul>
 
                     <li>
-                        Spring Boot is running on port 8052
+                        Spring Boot is running on port 8081
                     </li>
 
                     <li>

@@ -19,7 +19,7 @@ if (registerForm) {
         try {
 
             const response = await fetch(
-                "http://localhost:8052/users/register",
+                "http://localhost:8081/users/register",
                 {
                     method: "POST",
                     headers: {

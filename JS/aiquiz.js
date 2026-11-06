@@ -1,4 +1,4 @@
-const API_BASE_URL = "http://localhost:8052";
+const API_BASE_URL = "http://localhost:8081";
 const generateBtn = document.getElementById("generateBtn");
 const submitBtn = document.getElementById("submitBtn");
 const loading = document.getElementById("loading");

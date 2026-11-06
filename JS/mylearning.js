@@ -20,7 +20,7 @@ async function loadMyCourses() {
     try {
 
         const response = await fetch(
-            "http://localhost:8052/students/my-courses",
+            "http://localhost:8081/students/my-courses",
             {
                 method: "GET",
                 headers: {
@@ -130,7 +130,7 @@ async function loadQuizResults() {
     try {
 
         const response = await fetch(
-            "http://localhost:8052/quiz-results",
+            "http://localhost:8081/quiz-results",
             {
                 method: "GET",
                 headers: {

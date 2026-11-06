@@ -17,7 +17,7 @@ registerForm.addEventListener("submit", async function (event) {
     };
     try {
         const response = await fetch(
-            "http://localhost:8052/users/register",
+            "http://localhost:8081/users/register",
             {
                 method: "POST",
                 headers: {
@@ -57,7 +57,7 @@ loginForm.addEventListener("submit", async function (event) {
     };
     try {
         const response = await fetch(
-            "http://localhost:8052/users/login",
+            "http://localhost:8081/users/login",
             {
                 method: "POST",
                 headers: {
