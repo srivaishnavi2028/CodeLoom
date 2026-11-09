@@ -25,6 +25,12 @@ pipeline {
             }
         }
 
+        stage('Publish Test Results') {
+            steps {
+                junit 'springboot-first-app/target/surefire-reports/*.xml'
+            }
+        }
+
         stage('Verify Docker') {
             steps {
                 bat '"%DOCKER%" version'
